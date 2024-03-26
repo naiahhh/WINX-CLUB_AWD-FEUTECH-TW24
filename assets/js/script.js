@@ -44,3 +44,36 @@ function close_search() {
         console.error('error: searchpanel not found')
     }
 }
+// responsive logoipsum slider
+$('.sliderlogo').slick{{
+    arrows: false,
+    dots: false,
+    infinite: false,
+    autoplay: false,
+    speed: 300,
+    slidesToShow: 5,
+    sliderToScroll: 1,
+    responsive:{{
+        breakpoint: 1024,
+        settings:{
+            : 4,
+            sliderToScroll: 1
+            infinite: true,
+            dots: false,
+        }
+    },
+{
+    breakpoint: 600,
+    settings:{
+        : 2,
+        sliderToScroll: 1
+    }
+},
+{
+    breakpoint: 480,
+    settings:{
+        : 2,
+        sliderToScroll: 1
+}
+}
+}
