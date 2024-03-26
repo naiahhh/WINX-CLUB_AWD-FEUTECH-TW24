@@ -1,0 +1,600 @@
+/* font family Raleway */
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font family Barlow */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ============= 01. Reset section ============= */
+
+html,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+button:focus {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+label {
+    font-weight: normal;
+}
+
+iframe {
+    width: 100%;
+}
+
+/* ===== 02. Global Style ===== */
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 85px;
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 51px;
+    font-family: "Raleway", sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 31px;
+    font-family: "Raleway", sans-serif;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+    font-family: "Raleway", sans-serif;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Raleway", sans-serif;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "Barlow", sans-serif;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 16px 38px 16px 38px;
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #c9c3c3;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ============= 03. Header section ============= */
+.header-index {
+    background-image: url(../Images/bg/hero_bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 15px;
+    color: #d3c9c1;
+}
+
+.container-nav {
+    gap: 70px;
+}
+
+.navbar-logo {
+    margin-right: 25px;
+}
+
+.navbar-toggler {
+    border: 1px solid #7436bb;
+    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-toggler:hover{
+    background: inherit;
+}
+
+.navbar-toggler span {
+    color: #fff;
+    font-size: 22px;
+}
+
+.navbar-nav{
+    gap: 50px;
+}
+
+.nav-link{
+    font-weight: 400;
+    color: #d3c9c1;
+}
+
+nav li a.active, .nav-link:is(:hover, :focus-visible) {
+    color: #f57c48;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-toggle::after{
+    content: '+';
+    vertical-align: center;
+    margin-left: 5px;
+}
+.dropdown-menu{
+    position: absolute;
+    padding: 30px;
+    z-index: 9;
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    width: 220px;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+    background-color: #3d0541;
+    margin-left: -52px;
+}
+
+.dropdown-menu li{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropdown-item::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    background-color: #b520a3;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.dropdown-item:hover::before{
+    width: 100%;
+    background-color: #b520a3;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus{
+    color: #fff;
+    background-color: inherit;
+}
+
+.dropdown-item{
+    display: block;
+    width: 100%;
+}
+
+.nav-right{
+    gap: 45px;
+}
+
+.nav-right p{
+    color: #d3c9c1;
+}
+
+.nav-right span{
+    color: #f57c48;
+}
+
+.fa-magnifying-glass {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-right .fa-magnifying-glass:active{
+    color: #999;
+    transform: scale(0.8);
+}
+
+.nav-right .fa-bars{
+    color: #fff;
+    font-size: 22px;
+    background-color: #150803;
+    padding: 7px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-right .fa-bars:active{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 880px) {
+    .navbar-toggler {
+        display: block !important;
+    }
+
+    .navbar-nav,
+    .nav-right {
+        display: none !important;
+    }
+
+    .container-nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+/* sidebar */
+
+.sidepanel{
+    background-color: #3d0541;
+    z-index: 10;
+    position: fixed;
+    width: 320px;
+    height: 100vh;
+    top: 0;
+    left: -320px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 40px 20px 20px 20px;
+}
+
+.sidebar{
+    justify-content: space-between;
+}
+
+.sidebar img{
+    width: 100px;
+}
+
+.sidebar button{
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    padding: 10px 12px 10px 12px;
+    margin-bottom: -15px;
+    border-radius: 0.25em;
+    border: 1.5px solid #b520a3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar button:hover{
+    background: inherit;
+}
+
+.sidebar a{
+    padding: 10px 0;
+}
+
+aside ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+aside ul li{
+    margin: 15px 0;
+}
+
+aside li a{
+    color: #d3c9c1;
+    transition: 500ms;
+    padding: 10px 0;
+}
+
+aside ul li a.active{
+    color: #f57c48;
+}
+
+aside ul li a:hover{
+    color: #f57c48;
+    transition: 500ms;
+}
+
+aside .pages{
+    font-weight: 500;
+    color: #d3c9c1;
+    margin: 11px 0 7px 0;
+}
+
+.collapse-btn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.collapse-btn i{
+    border: 1px solid #d3c9c1;
+    padding: 7px 8px;
+    border-radius: 40px;
+}
+
+.collapse-btn i:hover{
+    border: 1px solid #f57c48;
+}
+
+.plus_collapse{
+    margin: -52px 0 0 0;
+    height: 45px;
+}
+
+#pages{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+
+.show{
+    height: 500px !important;
+    transition: height 0.34s ease;
+}
+
+/* search */
+#search-bar{
+    background-color: #000000a6;
+    width: 100%;
+    height: 0;
+    position: fixed;
+    display: flex;
+    z-index: 2;
+    border-radius: 0px;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+#search-bar div:first-child{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    right: 0;
+    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25em;
+    border: 1.5px solid #b520a3;
+    color: #fff;
+    margin: 30px;
+    cursor: pointer;
+}
+
+#search-bar div:first-child:hover{
+    background: inherit;
+}
+
+#search-bar form{
+    border-radius: 50px;
+    border: 1px solid #6d2f8a;
+    background: #381a46;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-bar form input{
+    border-radius: 50px;
+    background: #381a46;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+
+#search-bar form button{
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+
+}
+
+/* right sidebar */
+
+.header-right-sidebar{
+    width: 355px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    /* right: -355px; */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 60px 25px 20px 30px;
+    z-index: 2;
+    background: #d3c9c1;
+}
