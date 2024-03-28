@@ -1238,6 +1238,9 @@ aside .pages {
     border: 1px solid;
 }
 
+.portfo-center p {
+    text-align: justify;
+}
 
 .portfolio-1 .btn_hover2 {
     padding: 15px 30px;
@@ -1257,6 +1260,11 @@ aside .pages {
     padding-bottom: 120px;
     position: relative;
     z-index: 1;
+}
+
+.bigger-heading {
+    font-size: 70px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optionally adjust font weight */
 }
 
 .gallary img {
