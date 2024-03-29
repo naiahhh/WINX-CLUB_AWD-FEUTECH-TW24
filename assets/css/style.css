@@ -2353,3 +2353,28 @@ footer form button:hover {
     margin-top: 55%;
     width: 100%;
 }
+
+/* LOG IN BUTTON */
+#_login {
+    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    padding: 8px 12px 10px 12px;
+    margin-bottom: -15px;
+    border-radius: 32px;
+    border: 1.5px solid #b520a3;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: #d3c9c1;
+}
+
+#_login:hover {
+    display: inline-block;
+    border-radius: 32px;
+    border: 1.5px solid #d12bec;
+    z-index: 1;
+    letter-spacing: 0.8px;
+    background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
+    cursor: pointer;
+    width: 100px;
+    color: #ffffff;
+}
