@@ -75,7 +75,7 @@ form.sign-in-form {
     height: 55px;
     border-radius: 55px;
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 15% 70% 15%;
     padding: 0 0.4rem;
     position: relative;
 }
@@ -88,7 +88,7 @@ form.sign-in-form {
     font-size: 1.1rem;
 }
 
-.input-field input {
+.input-field input, .input-field label {
     background: none;
     outline: none;
     border: none;
@@ -101,6 +101,28 @@ form.sign-in-form {
 .input-field input::placeholder {
     color: #aaa;
     font-weight: 500;
+}
+
+.show-password-label {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.show-password-label i {
+    color: #acacac;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+.show-password-label:hover i {
+    color: #333;
+}
+
+.show-password-label input {
+    margin-right: 5px;
 }
 
 .social-text {
