@@ -68,3 +68,21 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
 
   document.getElementById('loginForm').reset();
 });
+
+// Show pass js
+document.querySelectorAll('.show-password-label').forEach(function(label) {
+  const eyeIcon = label.querySelector('i');
+  const passwordInput = label.previousElementSibling;
+
+  eyeIcon.addEventListener('click', function() {
+      if (passwordInput.type === 'password') {
+          passwordInput.type = 'text';
+          eyeIcon.classList.remove('fa-eye');
+          eyeIcon.classList.add('fa-eye-slash');
+      } else {
+          passwordInput.type = 'password';
+          eyeIcon.classList.remove('fa-eye-slash');
+          eyeIcon.classList.add('fa-eye');
+      }
+  });
+});
