@@ -382,7 +382,7 @@ nav li a.active,
 .nav-right .fa-bars {
     color: #ffffff;
     font-size: 22px;
-    background-color: #150803;
+    /* background-color: #150803; */
     padding: 7px 8px;
     border-radius: 50%;
     cursor: pointer;
@@ -1800,14 +1800,14 @@ aside .pages {
     object-fit: cover;
     position: relative;
     background-repeat: no-repeat;
-/*     height: 500px; */
+    /* height: 500px; */
 }
 
 .team-img img {
     width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .overlay {
