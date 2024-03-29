@@ -131,12 +131,11 @@ if (!localStorage.getItem('username')) {
 }
 
 function logout() {
-    localStorage.clear();
+    localStorage.removeItem('username');
     window.location.href = './index.html';
 }
 
 document.getElementById('_logout').addEventListener('click', logout);
-
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
