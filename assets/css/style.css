@@ -2377,3 +2377,9 @@ footer form button:hover {
     background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
     border-radius: 5px;
 }
+
+/* LOG OUT BUTTON */
+#_logout {
+    margin-top: 55%;
+    width: 100%;
+}
