@@ -382,7 +382,7 @@ nav li a.active,
 .nav-right .fa-bars {
     color: #ffffff;
     font-size: 22px;
-    background-color: #150803;
+    /* background-color: #150803; */
     padding: 7px 8px;
     border-radius: 50%;
     cursor: pointer;
@@ -1238,9 +1238,6 @@ aside .pages {
     border: 1px solid;
 }
 
-.portfo-center p {
-    text-align: justify;
-}
 
 .portfolio-1 .btn_hover2 {
     padding: 15px 30px;
@@ -1260,11 +1257,6 @@ aside .pages {
     padding-bottom: 120px;
     position: relative;
     z-index: 1;
-}
-
-.bigger-heading {
-    font-size: 70px; /* Adjust the font size as needed */
-    font-weight: bold; /* Optionally adjust font weight */
 }
 
 .gallary img {
@@ -1800,12 +1792,15 @@ aside .pages {
     object-fit: cover;
     position: relative;
     background-repeat: no-repeat;
+    height: 500px;
+    /* max-height: fit-content; */
 }
 
 .team-img img {
     width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
+    height: 500px;
 }
 
 .overlay {
@@ -2230,6 +2225,7 @@ footer form button:hover {
 
 .footer-menu ul li a:hover {
     color: #f54a48;
+    /* text-transform: lowercase; */
 }
 
 .footer-menu i {
@@ -2263,6 +2259,11 @@ footer form button:hover {
 
 .footer-menu p {
     padding: 0 78px 0 0;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+
 }
 
 .copyright {
@@ -2376,10 +2377,4 @@ footer form button:hover {
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
     border-radius: 5px;
-}
-
-/* LOG OUT BUTTON */
-#_logout {
-    margin-top: 55%;
-    width: 100%;
 }
