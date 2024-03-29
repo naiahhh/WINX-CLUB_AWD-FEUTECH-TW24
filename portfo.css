@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --color-white: #FFFFFF;
+}
+
+body {
+    background: linear-gradient(to right, #1d071d, #431031);
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Monsterrat', sans-serif;
+    color: var(--color-white);
+    text-align: center;
+    font-weight: 600;
+}
+
+h2 {
+    color: var(--color-white);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.profile h2 {
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+
+img {
+    height: 35px;
+    width: auto;
+}
+
+.back {
+    filter: invert(1);
+    margin-top: 29px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.profile-lists {
+    margin: 0 auto;
+    display: table;
+}
+
+.profile {
+    border-radius: 10px;
+    border: 3px solid transparent;
+    text-align: center;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.profile-img {
+    margin-top: 90px;
+    width: 270px;
+    height: 270px;
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0px 13px 13px -3px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(20px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.profile-img:hover {
+    transform: scale(.8);
+    transition: transform 0.6s ease-in-out;
+}
+
+#ali:hover {
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 0 0 35px rgb(248, 166, 200);
+}
+
+#ava:hover {
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 0 0 35px rgb(119, 221, 119);
+}
+
+#markie:hover {
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 0 0 35px rgb(162, 191, 254);
+}
+
+#lyza:hover {
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 0 0 35px rgb(255, 0, 254);
+}
+
+#dalet:hover {
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 0 0 35px rgb(95, 28, 203);
+}
+
+.profile:nth-child(1) {
+    transition-delay: 0ms;
+}
+
+.profile:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.profile:nth-child(3) {
+    transition-delay: 500ms;
+}
+
+.profile:nth-child(4) {
+    transition-delay: 700ms;
+}
+
+.profile:nth-child(5) {
+    transition-delay: 900ms;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+/*  responsive */
+@media (max-width: 900px) {
+    .netflix-logo {
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+    }
+
+    .profile-lists {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 90px;
+        padding-bottom: 110px;
+    }
+
+    .profile {
+        margin-top: 3rem;
+        column-gap: 6px;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 150px;
+    }
+
+    .btn {
+        display: none; 
+    }
+}
+
+@media (max-width: 320px) {
+    .netflix-logo {
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 150px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .profile-lists {
+        display: grid;
+        place-items: center;
+        padding-bottom: 110px;
+        margin: auto;
+    }
+
+    .profile {
+        margin-top: 3rem;
+        margin: auto;
+    }
+}
