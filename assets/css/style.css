@@ -1793,7 +1793,7 @@ aside .pages {
     position: relative;
     background-repeat: no-repeat;
     height: 500px;
-    /* max-height: fit-content; */
+    max-height: fit-content;
 }
 
 .team-img img {
