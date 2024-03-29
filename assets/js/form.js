@@ -38,7 +38,7 @@ document.getElementById('signupForm').addEventListener('submit', function (event
 
   // Display success message
   alert('Signed up successfully!');
-  document.getElementById('signupForm').reset();
+  location.reload();
 });
 
 // Event listener for login form
@@ -64,7 +64,6 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     return;
   }
 
-  // If login is successful, redirect to another HTML file (change 'redirect.html' to your desired file)
   window.location.href = '../index.html';
 
   document.getElementById('loginForm').reset();
