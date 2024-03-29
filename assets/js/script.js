@@ -118,6 +118,25 @@ function close_right_sade() {
     }
 }
 
+// Logged in user
+var storedUsername = localStorage.getItem('username');
+
+if (storedUsername) {
+    document.getElementById('usernameLink').textContent = storedUsername;
+}
+
+// logout
+if (!localStorage.getItem('username')) {
+    document.getElementById('_logout').style.display = 'none';
+}
+
+function logout() {
+    localStorage.clear();
+    window.location.href = './index.html';
+}
+
+document.getElementById('_logout').addEventListener('click', logout);
+
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
