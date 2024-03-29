@@ -1800,7 +1800,7 @@ aside .pages {
     object-fit: cover;
     position: relative;
     background-repeat: no-repeat;
-    height: 500px;
+/*     height: 500px; */
 }
 
 .team-img img {
