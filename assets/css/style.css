@@ -1755,6 +1755,38 @@ aside .pages {
     color: #767676;
     margin-top: 10px;
 }
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .experience {
+        padding: 80px 0;
+    }
+    
+    .experience::before {
+        top: auto;
+        bottom: 0;
+        width: 60%;
+        height: 59%;
+        left: 50%;
+    }
+
+    .experience_mask {
+        left: 80%; /* Center horizontally */
+        transform: translateX(50%); /* Center horizontally */
+        top: 0; /* Adjust position from top */
+        width: 0px; /* Adjust size */
+        height: 0px; /* Adjust size */
+        padding: 0px; 
+        position: absolute;
+        margin-top: -67px; /* Adjust as needed */
+    }
+
+    .ex-card {
+        left: -45%; /* Center horizontally */
+        margin-top: 0px; /* Adjust as needed */
+        position: relative;
+        top: 50%;
+    }
+}
 
 /* ====== End of 1.8. Experience section ====== */
 
