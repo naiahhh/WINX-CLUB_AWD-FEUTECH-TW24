@@ -1244,6 +1244,56 @@ aside .pages {
     letter-spacing: 3.72px;
     text-transform: uppercase;
 }
+/* Responsive section */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .about-data {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .about-imgs figure {
+        width: 100%; /* Ensure the image fills its container */
+    }
+
+    .ab-count {
+        left: 100%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        bottom: 0; /* Adjust position from bottom */
+        width: 125px; /* Adjust size */
+        height: 125px; /* Adjust size */
+        padding: 30px; /* Increase padding for responsiveness */
+    }
+
+    .ab-count h2 {
+        margin: 40;
+        font-size: 1.5rem; /* Adjust font size */
+    }
+
+    .ab-count p {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.8rem; /* Adjust font size */
+    }
+
+    .about-hr {
+        right: auto; /* Reset position */
+        left: 120%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        bottom: 10px; /* Adjust position from bottom */
+    }
+
+    .about-hr hr {
+        width: 40px; /* Adjust width */
+    }
+    .btn_hover1,
+    .btn_hover2 {
+        /* Add styles for the buttons here */
+        padding: 12px 24px; /* Adjust padding */
+        font-size: 12px; /* Adjust font size */
+    }
+}
 
 /* ====== End of 1.5. About us section ====== */
 
