@@ -2135,6 +2135,16 @@ aside .pages {
     padding: 15px;
     background-color: #fff;
 }
+/* Media query for smaller screens (up to 768px) */
+@media (max-width: 768px) {
+    .faq {
+        padding: 60px 0; /* Further adjusted padding for smaller screens */
+    }
+
+    #faq {
+        padding: 60px 0; /* Further adjusted padding for smaller screens */
+    }
+}
 
 /* ====== End of 1.12. FAQ section ====== */
 
