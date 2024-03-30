@@ -120,10 +120,24 @@ function close_right_sade() {
 
 // Logged in user
 var storedUsername = localStorage.getItem('username');
+var loginButton = document.getElementById('_login');
 
 if (storedUsername) {
-    document.getElementById('usernameLink').textContent = storedUsername;
+    loginButton.textContent = storedUsername;
+    loginButton.removeAttribute('id');
+    loginButton.disabled = true;
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    var storedUsername = localStorage.getItem('username');
+    var loginButton = document.getElementById('_login');
+
+    if (storedUsername) {
+        loginButton.textContent = storedUsername;
+        loginButton.removeAttribute('id');
+        loginButton.disabled = true;
+    }
+});
 
 // logout
 if (!localStorage.getItem('username')) {
