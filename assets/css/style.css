@@ -1921,6 +1921,40 @@ aside .pages {
     margin-top: 90px;
     text-transform: uppercase;
 }
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .team {
+        padding-top: 80px; /* Adjust top padding for smaller screens */
+    }
+
+    #team {
+        padding-bottom: 80px; /* Adjust bottom padding for smaller screens */
+    }
+
+    .team-slider {
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+
+    .team-img {
+        min-width: 40%;
+        object-fit: contain; /* Resize the image to fit within the container */
+    }
+
+    .overlay_text {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .team h2,
+    .team p {
+        padding: 0 10px; /* Further reduce padding for smaller screens */
+    }
+
+    .team-btn {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
 
 /* ====== End of 1.10. team section ====== */
 
