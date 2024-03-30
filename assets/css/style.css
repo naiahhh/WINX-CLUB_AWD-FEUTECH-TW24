@@ -970,14 +970,49 @@ aside .pages {
 }
 
 .header-card h4 {
-    width: 146px;
+    width: 145px;
     letter-spacing: 1.1px;
     text-transform: uppercase;
     margin: 20px 0 12px 0;
 }
 
-/* ====== End of 1.3. card section ====== */
+/* Apply different padding to each card */
+.header-card:nth-child(1) {
+    padding: 150px 60px; /* Adjust as needed */
+}
 
+.header-card:nth-child(2) {
+    padding: 0px 50px; /* Adjust as needed */
+}
+
+.header-card:nth-child(3) {
+    padding: 0px 50px; /* Adjust as needed */
+}
+
+.header-card:nth-child(4) {
+    padding: 0px 50px; /* Adjust as needed */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .header-card {
+        width: 50%;
+        padding: 0 10px; /* Adjust padding as needed */
+    }
+
+    .header-card h4 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-card {
+        width: 100%;
+        padding: 0 10px; /* Adjust padding as needed */
+    }
+}
+
+/* ====== End of 1.3. card section ====== */
 /* ====== 1.4. logoipsum section ====== */
 
 .logoipsum {
