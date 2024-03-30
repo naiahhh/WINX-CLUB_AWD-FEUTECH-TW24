@@ -920,6 +920,26 @@ aside .pages {
 .center-btn a {
     padding: 16px 38px 16px 38px !important;
 }
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .hero {
+        padding: 20% 0 20% 0; /* Adjusted padding for responsiveness */
+    }
+
+    .hero-social-icon {
+        padding-top: 10px;
+        margin-left: -40px;  /* Adjusted padding for better spacing */
+    }
+
+    .hero-social-icon a {
+        padding: 5px; /* Adjusted padding for better spacing */
+    }
+
+    .hero-social-icon i {
+        font-size: 16px;
+        margin-left: 5px; 
+    }
+}
 
 /* ====== End of 1.2. hero section ====== */
 
