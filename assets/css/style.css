@@ -616,6 +616,15 @@ aside .pages {
     margin: 11px 0 7px 0;
 }
 
+.login-Btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: inherit;
+    cursor: default;
+    font-size: inherit;
+}
+
 .collapse_btn {
     display: flex;
     justify-content: space-between;
@@ -2350,8 +2359,56 @@ footer form button:hover {
 
 /* LOG OUT BUTTON */
 #_logout {
-    margin-top: 55%;
     width: 100%;
+}
+
+.logoutSide {
+    margin-top: 5%;
+    margin-bottom: 15px;
+    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    padding: 8px 12px 10px 12px;
+    border-radius: 32px;
+    border: 1.5px solid #b520a3;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: #d3c9c1;
+}
+
+.logoutSide:hover {
+    display: inline-block;
+    border-radius: 32px;
+    border: 1.5px solid #d12bec;
+    z-index: 1;
+    letter-spacing: 0.8px;
+    background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
+    cursor: pointer;
+    width: 100px;
+    color: #ffffff;
+}
+
+.logout-Btn {
+    margin-top: 55%;
+    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    padding: 8px 12px 10px 12px;
+    border-radius: 32px;
+    border: 1.5px solid #b520a3;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: #d3c9c1;
+}
+
+.logout-Btn:hover {
+    display: inline-block;
+    border-radius: 8px;
+    border: 1.5px solid #d12bec;
+    z-index: 1;
+    letter-spacing: 0.8px;
+    background: linear-gradient(180deg, #ff0000 0%, #ff0000 100%);
+    cursor: pointer;
+    width: 100px;
+    color: #ffffff;
 }
 
 /* LOG IN BUTTON */
