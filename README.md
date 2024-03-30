@@ -31,8 +31,8 @@ Winxify caters to a diverse range of creative individuals, including but not lim
 - ★ **Portfolio Hub**: Manage and update your portfolio with ease using our centralized portfolio hub.
 
 ## Members
-- Goyon, Allyza Marielle J. (Leader)
-- Arce, Ava Samantha M.
+- Goyon, Allyza Marielle (Leader)
+- Arce, Ava Samantha
 - Baltazar, Ma. Elizabeth
 - Garcia, Josiah Mark
 - Tambis, Clayton
