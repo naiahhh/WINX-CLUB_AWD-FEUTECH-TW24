@@ -2329,7 +2329,7 @@ aside .pages {
 }
 
 /* Media query for smaller screens (up to 768px) */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .faq {
         padding: 60px 0; 
     }
@@ -2349,7 +2349,6 @@ aside .pages {
         display: flex;
         justify-content: center; 
         align-items: center;
-        flex-direction: column; 
     }
 
     .w-50 {
