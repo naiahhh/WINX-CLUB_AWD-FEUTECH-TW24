@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winxify | Portfolio Hub for Web Developers</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="assets/css/easy.css">
-    <link rel="stylesheet" href="assets/css/slick.min.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/img/fave_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/easy.css">
+    <link rel="stylesheet" href="./assets/css/slick.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/fav_icon.png" type="image/x-icon">
 
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -36,27 +36,20 @@
                             <li><a class="nav-link active" href="index.html">Home</a></li>
                             <li><a class="nav-link" href="./pages/about.html">About</a></li>
                             <li><a class="nav-link" href="./pages/gallery.html">Gallery</a></li>
-                            <li><a class="nav-link" href="./pages/contact.html">Contact</a></li>
                             <li class="dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Pages
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item" href="comingsoon.html">Services</a></li>
-                                    <li><a class="dropdown-item" href="comingsoon.html">Pricing Plan</a></li>
-                                    <li><a class="dropdown-item" href="./pages/profile.html">Portfolio</a></li>
-                                    <li><a class="dropdown-item" href="comingsoon.html">Team</a></li>
-                                    <li><a class="dropdown-item" href="comingsoon.html">Testimonials</a></li>
-                                    <li><a class="dropdown-item" href="comingsoon.html">FAQ</a></li>
-                                    <li><a class="dropdown-item" href="comingsoon.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="../pages/profile.html">Portfolio</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
 
                     <div class="flex nav-right">
-                        <a href="./pages/form.html" class="nav-link" id="usernameLink"><button class="login-Btn" id="_login">Login</button></a>
+                        <a href="./pages/form.html" class="nav-link" id="usernameLink">Login</a>
                         <!-- header buttons -->
                         <div class="notification" data-count="0" >
                             <i onclick="open_notification()" id="bellIcon" class="fa-solid fa-bell"></i>
@@ -75,10 +68,8 @@
                     <div>
                         <!-- side menus -->
                         <ul>
-                            <li><a href="./pages/form.html" class="nav-link" id="usernameLink"><button class="login-Btn" id="_login">Login</button></a></li>
                             <li><a class="nav-link active" href="index.html">Home</a></li>
                             <li><a class="nav-link" href="./pages/about.html">About</a></li>
-                            <li><a class="nav-link" href="./pages/gallery.html">Gallery</a></li>
                             <li class="pages"><a href="#">More</a></li>
                             <li class="collapse_btn">
                                 <a class="nav-link plus_collapse" data-bs-toggle="collapse" href="javascript:void(0);"
@@ -87,21 +78,10 @@
                                 </a>
                                 <div class="collapse" id="pages">
                                     <ul>
-                                        <li><a class="nav-link" href="services.html">Services</a></li>
-                                        <li><a class="nav-link" href="pricing.html">Pricing Plan</a></li>
                                         <li><a class="nav-link" href="./pages/profile.html">Portfolio</a></li>
-                                        <li><a class="nav-link" href="team.html">Team</a></li>
-                                        <li><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                                        <li><a class="nav-link" href="faq.html">FAQ</a></li>
-                                        <li><a class="nav-link" href="blog.html">Blog</a></li>
-                                        <li><a class="nav-link" href="coming_soon.html">Coming Soon</a></li>
-                                        <li><a class="nav-link" href="404.html">404</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <span class="flex">
-                                <button class="logoutSide" id="logout">Logout</button>
-                            </span>
                         </ul>
                     </div>
                 </aside>
@@ -121,8 +101,7 @@
                         <a href="/"><img src="assets/img/right-side-logo.png" alt="logo"></a>
                         <button class="close_right_sidebar fa-solid fa-xmark" onclick="close_right_sade()"> </button>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                    <p>Explore Winxify and discover how it can help you take your Winx portfolio to the next level.
                     </p>
                     <a href="./pages/about.html" class="btn_hover1">Discover More</a>
                     <hr>
@@ -130,7 +109,7 @@
                     <ul class="flex">
                         <li>
                             <a href="#"> <i class="fa-solid fa-phone"></i></a>
-                            <a href="#" class="text-lowercase">Yourname@Email.com</a>
+                            <a href="#" class="text-lowercase">winxify@gmail.com</a>
                         </li>
                         <li>
                             <a href="#"> <i class="fa-regular fa-envelope"></i></a>
@@ -138,8 +117,7 @@
                         </li>
                         <li>
                             <a href="#"> <i class="fa-sharp fa-regular fa-clock"></i></a>
-                            <a href="#">Office Hours: 8AM - 11PM Sunday -
-                                Weekend Day</a>
+                            <a href="#">Office Hours: 8AM - 5PM Weekdays</a>
                         </li>
                     </ul>
                     <span class="flex">
@@ -158,14 +136,8 @@
             <section class="hero">
                 <div class="container" data-aos="zoom-in">
                     <div>
-                        <div class="hero-social-icon flex">
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <hr class="d-md-block d-sm-none d-none">
-                        </div>
                         <div class="center-data">
-                            <h1>Winxify</h1>
+                            <h1>WINXIFY</h1>
                             <h3>BUILDING YOUR EMPIRE DIGITALLY</h3>
                             <div class="center-btn flex">
                                 <a href="services.html" class="btn_hover1">Get Started</a>
@@ -225,204 +197,17 @@
                     <h3 data-aos="zoom-in" class="mb-15">OUR CLIENTS</h3>
                 </div>
                 <div class="logoipsum-slider sliderlogo" data-aos="zoom-in">
-                    <figure><img src="assets/img/home/logoipsum1.svg" alt="logoipsum"></figure>
-                    <figure><img src="assets/img/home/logoipsum2.svg" alt="logoipsum"></figure>
-                    <figure><img src="assets/img/home/logoipsum3.svg" alt="logoipsum"></figure>
-                    <figure><img src="assets/img/home/logoipsum4.svg" alt="logoipsum"></figure>
-                    <figure><img src="assets/img/home/logoipsum5.svg" alt="logoipsum"></figure>
-                    <figure><img src="assets/img/home/logoipsum6.svg" alt="logoipsum"></figure>
+                    <figure><img src="./assets/img/home/4.png" alt="logoipsum"></figure>
+                    <figure><img src="./assets/img/home/5.png" alt="logoipsum"></figure>
+                    <figure><img src="./assets/img/home/3.png" alt="logoipsum"></figure>
+                    <figure><img src="./assets/img/home/4.png" alt="logoipsum"></figure>
+                    <figure><img src="./assets/img/home/5.png" alt="logoipsum"></figure>
                 </div>
                 <hr class="hr2">
             </div>
         </section>
         <!-- ====== End of 1.4. logoipsum section ====== -->
         <!-- ====== 1.5. About us section ====== -->
-        
-        <!-- ====== 1.6. gallery section ====== -->
-        <section class="portfolio">
-            <div class="portfolio-1">
-                <div class="container">
-                    <div class="portfo-center" data-aos="fade-up">
-                        <div class="w-50">
-                            <div class="flex gap-1">
-                                <hr class="gallary-hr1">
-                                <h5>PORTFOLIO</h5>
-                            </div>
-                            <h2 class="mt-15">Our Latest Projects.</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever.
-                            </p>
-                        </div>
-                        <div class="flex flex-end w-100">
-                            <a href="portfolio.html" class="btn_hover2">View All Projects</a>
-                        </div>
-                        <hr class="mt-30">
-                    </div>
-                </div>
-            </div>
-            <div class="gallary">
-                <div class="ga-bg"> </div>
-                <!-- overly -->
-                <span> </span>
-                <div class="container" data-aos="fade-up">
-                    <!-- Tab links -->
-                    <div class="tab mb-15">
-                        <button class="tablinks active" onclick="open_img(event, 'all')">ALL</button>
-                        <button class="tablinks" onclick="open_img(event, 'design')">DESIGN</button>
-                        <button class="tablinks" onclick="open_img(event, 'development')">DEVELOPMENT</button>
-                        <button class="tablinks" onclick="open_img(event, 'branding')">BRANDING</button>
-                        <button class="tablinks" onclick="open_img(event, 'ui_ux')">UI/UX</button>
-                        <button class="tablinks" onclick="open_img(event, 'markiting')">MARKETING</button>
-                        <button class="tablinks" onclick="open_img(event, 'seo')">SEO</button>
-                    </div>
-                    <!-- Tab content -->
-                    <div id="all" class="tabcontent" style="display: block;">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/all-gallary-1.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/all-gallary-2.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/all-gallary-3.png" alt="img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="assets/img/home/all-gallary-4.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/all-gallary-5.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/all-gallary-6.png" alt="sm_img"></figure>
-                                    <figure><img src="assets/img/home/all-gallary-7.png" alt="sm_img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="assets/img/home/all-gallary-8.png" alt="img"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="design" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/design-gallary-3.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/design-gallary-6.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/design-gallary-7.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/design-gallary-1.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/design-gallary-2.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/design-gallary-4.png" alt="img"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="development" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/dev-gallary-3.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/dev-gallary-4.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/dev-gallary-5.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/dev-gallary-6.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/dev-gallary-7.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/dev-gallary-8.png" alt="img"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="branding" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/brand-gallary-6.png" alt="img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="assets/img/home/brand-gallary-8.png" alt="img"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="ui_ux" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/ui-ux-gallary-3.png" alt="img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="assets/img/home/ui-ux-gallary-4.png" alt="img"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="markiting" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/market-gallary-1.png" alt="img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="assets/img/home/market-gallary-2.png" alt="img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="assets/img/home/market-gallary-3.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/market-gallary-4.png" alt="img"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="seo" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/seo-gallary-4.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/seo-gallary-5.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/seo-gallary-7.png" alt="img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="assets/img/home/seo-gallary-6.png" alt="img"></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="assets/img/home/seo-gallary-8.png" alt="img"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallary-hr flex gap-1 flex-end mt-15">
-                        <h6>Creative Solution</h6>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ====== End of 1.6. gallary section ====== -->
         <!-- ====== 1.7. Services section ====== -->
         <section class="service">
             <div class="service-1">
@@ -433,14 +218,12 @@
                                 <hr class="service-hr1">
                                 <h5>SERVICES</h5>
                             </div>
-                            <h2 class="mt-15">Services We Offer</h2>
-                            <p class="mt-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum
-                                has been the industry's standard dummy text ever.
+                            <h2 class="mt-15">SERVICES WE OFFER!</h2>
+                            <p class="mt-15">Winxify is one of the industry's top performing agencies, offering a wide range of services to help you grow your business and get your portfolio noticed.
                             </p>
                         </div>
                         <div class="w-33 mt-15 flex flex-end">
-                            <a href="services.html" class="btn_hover2">View All Services</a>
+                            <a href="#" class="btn_hover2">View All Services</a>
                         </div>
                         <hr class="mt-15 mb-15">
                     </div>
@@ -448,71 +231,26 @@
                         <div class="service-card" data-aos="fade-down">
                             <figure><img src="assets/img/icon/slider1.png" alt="slider1"></figure>
                             <h3>UI/UX Design</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever.
+                            <p>Winxify will effortlessly connect with your existing Winx account, allowing you to import your portfolio projects directly.
                             </p>
-                            <a href="services.html">Read more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         <div class="service-card" data-aos="fade-up">
                             <figure><img src="assets/img/icon/slider2.png" alt="slider2"></figure>
                             <h3>DEVELOPMENT</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever.
+                            <p>Organize your portfolio projects efficiently with built-in project management features that help you stay on track and meet deadlines.
                             </p>
-                            <a href="services.html">Read more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         <div class="service-card" data-aos="fade-down">
                             <figure><img src="assets/img/icon/slider3.png" alt="slider3"></figure>
-                            <h3>Visual Design</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever.
+                            <h3>VISUAL DESIGN</h3>
+                            <p> Ensure your portfolio looks stunning and functions flawlessly on all devices, from desktops to tablets and smartphones.
                             </p>
-                            <a href="services.html">Read more <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- ====== End of 1.7. Services section ====== -->
-       
-        <!-- ====== 1.9. How we work section ====== -->
-        <section class="work">
-            <div class="container position-relative">
-                <div class="work-para text-center" data-aos="fade-up">
-                    <h5>HOW WE WORK</h5>
-                    <h2 class="h2_margin">Our Process For Delivering Results</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry’s standard dummy text ever.
-                    </p>
-                </div>
-                <div class="work-hr flex gap-1">
-                    <hr>
-                    <h6>Project in steps</h6>
-                </div>
-                <div class="work-line flex flex-center gap-1 flex-wrap p-relative">
-                    <div data-aos="zoom-in">
-                        <h2>01.</h2>
-                        <h4>Make An Appointment</h4>
-                    </div>
-                    <div data-aos="zoom-in">
-                        <h2>02.</h2>
-                        <h4>Meet Our Team</h4>
-                    </div>
-                    <div data-aos="zoom-in">
-                        <h2>03.</h2>
-                        <h4>Get Consultation</h4>
-                    </div>
-                    <div data-aos="zoom-in">
-                        <h2>04.</h2>
-                        <h4>Start Project</h4>
-                    </div>
-                </div>
-                <div class="flex flex-center" data-aos="zoom-in">
-                    <a href="./pages/contact.html" class="btn_hover2">Contact Now</a>
-                </div>
-            </div>
-        </section>
-        <!-- ====== End of 1.9. How we work section ====== -->
         
         <!-- ====== 1.11. Pricing section ====== -->
         <section class="pricing p-relative">
@@ -525,38 +263,34 @@
                 <div class="text-center" data-aos="fade-down">
                     <h5>PRICING</h5>
                     <h2 class="mt-1">Pricing Plans</h2>
-                    <p class="mt-1 mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been
-                        the industry's standard dummy text ever.
+                    <p class="mt-1 mb-15">Winxify offers a range of pricing plans to suit your needs, whether you're a freelancer, small business, or large enterprise.
                     </p>
                 </div>
                 <div class="pricing-card flex gap-1 mt-3 text-center">
                     <div class="flex flex-col gap-2" data-aos="fade-up">
                         <h3>BASIC</h3>
-                        <h2>$24</h2>
-                        <h6>SEO Audits</h6>
-                        <h6>SEO Managements</h6>
-                        <h6>Digital Marketing</h6>
-                        <h6>Site Managment</h6>
-                        <a href="pricing.html" class="btn_hover1">Get Started</a>
+                        <h2>₱500</h2>
+                        <h6>Basic Portfolio</h6>
+                        <h6>Profile Management</h6>
+                        <h6>Winxify Domain</h6>
+                        <a href="" class="btn_hover1">Get Started</a>
                     </div>
                     <div class="flex flex-col gap-2">
                         <h3>STANDARD</h3>
-                        <h2>$594</h2>
-                        <h6>SEO Audits</h6>
-                        <h6>SEO Managements</h6>
-                        <h6>Digital Marketing</h6>
-                        <h6>Site Managment</h6>
-                        <a href="pricing.html" class="btn_hover2">Get Started</a>
+                        <h2>₱1500</h2>
+                        <h6>Own Domain</h6>
+                        <h6>Premium Portfolio Templates</h6>
+                        <h6>Site Management</h6>
+                        <a href="" class="btn_hover2">Get Started</a>
                     </div>
                     <div class="flex flex-col gap-2" data-aos="fade-down">
                         <h3>PREMIUM</h3>
-                        <h2>$99</h2>
-                        <h6>SEO Audits</h6>
-                        <h6>SEO Managements</h6>
+                        <h2>₱5500</h2>
+                        <h6>Own & Editable Domain</h6>
+                        <h6>SEO Management</h6>
                         <h6>Digital Marketing</h6>
-                        <h6>Site Managment</h6>
-                        <a href="pricing.html" class="btn_hover1">Get Started</a>
+                        <h6>Site Management</h6>
+                        <a href="" class="btn_hover1">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -573,9 +307,7 @@
                             <h5>FAQ</h5>
                         </div>
                         <h2 class="mt-1">Frequently Asked Questions</h2>
-                        <p class="mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has
-                            been the industry's standard dummy text ever.
+                        <p class="mt-1">New to Winxify? Here are common questions about our services and how we work.
                         </p>
                     </div>
                     <div class="w-50 mt-15">
@@ -585,13 +317,11 @@
                                     <button class="accordion-button flex-sb" type="button">
                                         WHAT KIND OF DIGITAL SERVICES DO YOU
                                         PROVIDE?
-                                        <img src="assets/img/icon/plus.png" alt="img">
+                                        <img src="./assets/img/icon/plus.png" alt="img">
                                     </button>
                                 </h2>
                                 <div class="accordion-collapse">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation.
+                                    <p>Winxify will effortlessly connect with your existing Winx account, allowing you to import your portfolio projects directly.
                                     </p>
                                 </div>
                             </div>
@@ -600,43 +330,35 @@
                                     <button class="accordion-button flex-sb" type="button">
                                         WHAT IS YOUR PROCESS FOR WORKING
                                         WITH CLIENTS?
-                                        <img src="assets/img/icon/plus.png" alt="img">
+                                        <img src="./assets/img/icon/plus.png" alt="img">
                                     </button>
                                 </h2>
                                 <div class="accordion-collapse">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation.
+                                        <p>Winxify will help you in choosing portfolio templates, beautifying them, and displaying them for your own portfolio.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button flex-sb" type="button">
-                                        WHAT IS YOUR TIMELINE FOR COMPLETING
-                                        A PROJECT?
-                                        <img src="assets/img/icon/plus.png" alt="img">
+                                        HOW DO I SIGN UP?
+                                        <img src="./assets/img/icon/plus.png" alt="img">
                                     </button>
                                 </h2>
                                 <div class="accordion-collapse">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation.
+                                    <p>Click the button on top and navigate to login page. Fill in the required details and you are good to go.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button flex-sb" type="button">
-                                        WHAT IF I'M NOT SATISFIED WITH THE
-                                        WORK?
-                                        <img src="assets/img/icon/plus.png" alt="img">
+                                        WHAT IS THE COST OF WINXIFY?
+                                        <img src="./assets/img/icon/plus.png" alt="img">
                                     </button>
                                 </h2>
                                 <div class="accordion-collapse">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation.
+                                    <p>Navigate through the pricing section to know more about the cost of Winxify.
                                     </p>
                                 </div>
                             </div>
@@ -656,9 +378,7 @@
                             <h5>BLOGS</h5>
                         </div>
                         <h2 class="mt-1">Latest Posts</h2>
-                        <p class="mt-1 mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has
-                            been the industry's standard dummy text ever.
+                        <p class="mt-1 mb-15">Winxify's articles written by our team of experts will help you stay up-to-date on the latest trends in web development and digital marketing.
                         </p>
                     </div>
                     <div class="w-33 mt-1 flex flex-end">
@@ -667,15 +387,15 @@
                 </div>
                 <div class="flex gap-2 mt-15 blog-cards">
                     <div data-aos="fade-up" class="blog-card w-100">
-                        <img src="assets/img/home/blog1.png" class="card-img-top" alt="img">
+                        <img src="assets/img/home/blog1.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
-                            <h4>10 Must-Know Digital Marketing Trends In 2023
+                            <h4>10 Must-Know Web Design Trends In 2023
                             </h4>
                             <a href="#">Learn More</a>
                         </div>
                     </div>
                     <div data-aos="fade-down" class="blog-card w-100">
-                        <img src="assets/img/home/blog2.png" class="card-img-top" alt="img">
+                        <img src="assets/img/home/blog2.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
                             <h4>The Importance Of Responsive Web Design For Your Business
                             </h4>
@@ -683,9 +403,9 @@
                         </div>
                     </div>
                     <div data-aos="fade-up" class="blog-card w-100">
-                        <img src="assets/img/home/blog3.png" class="card-img-top" alt="img">
+                        <img src="assets/img/home/blog3.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
-                            <h4>How To Create A Successful Social Media Strategy
+                            <h4>How to Promote Your Website on Social Media
                             </h4>
                             <a href="#">Learn More</a>
                         </div>
@@ -703,9 +423,7 @@
                         <h6>Newsletter</h6>
                     </div>
                     <h3>JOIN OUR MAILING LIST</h3>
-                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been
-                        the industry's standard dummy text ever.
+                    <p class="text-center">Get the latest Winxify news, tips, and special offers delivered straight to your inbox.
                     </p>
                 </div>
                 <form id="footer-form" class="flex flex-sb gap-2" data-aos="zoom-in" data-aos-delay="400">
@@ -719,8 +437,7 @@
                     <div class="flex flex-start footer-center">
                         <div class="w-33 flex flex-col gap-2 flex-start">
                             <a href="index.html"><img src="assets/img/logo.png" alt="footer-logo"></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.
+                            <p>Explore Winxify and discover how it can help you take your portfolio to the next level.
                             </p>
                             <span class="flex gap-2">
                                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -733,9 +450,9 @@
                             <h4>Quick Links</h4>
                             <ul class="flex flex-col gap-2 flex-start">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Blogs</a></li>
+                                <li><a href="./pages/about.html">About</a></li>
+                                <li><a href="./pages/gallery.html">Gallery</a></li>
+                                <li><a href="./pages/profile.html">Portfolio</a></li>
                             </ul>
                         </div>
                         <div class="w-16 mt-45 flex-end">
@@ -751,7 +468,7 @@
                             <ul class="flex flex-col gap-2 flex-start">
                                 <li>
                                     <a href="#"> <i class="fa-solid fa-phone"></i></a>
-                                    <a href="#" class="text-lowercase">Yourname@Email.Com</a>
+                                    <a href="#" class="text-lowercase">winxify@Email.Com</a>
                                 </li>
                                 <li>
                                     <a href="#"> <i class="fa-regular fa-envelope"></i></a>
@@ -769,8 +486,7 @@
             </div>
             <div class="copyright">
                 <div class="container flex flex-sb gap-2 flex-wrap">
-                    <h6>Copyright © 2023 Digitly By <a href="https://codingwebstudio.com/" class="p-0">
-                            codingwebstudio. </a> All Rights Reserved.
+                    <h6>Copyright © 2023</a> All Rights Reserved.
                     </h6>
                 </div>
             </div>
