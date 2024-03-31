@@ -1854,6 +1854,10 @@ aside .pages {
         margin-top: -67px; /* Adjust as needed */
     }
 
+    .experience-hr h6, .experience-hr hr{
+        display: none;
+    }
+
     .ex-card {
         left: 0; /* Center horizontally */
         margin-top: 0px; /* Adjust as needed */
