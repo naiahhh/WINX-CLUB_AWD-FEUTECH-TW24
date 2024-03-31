@@ -1421,7 +1421,7 @@ aside .pages {
     width: 100%;
     opacity: 1.25;
     height: 1px;
-    color: #120224;
+    color: #ffffff;
     border: 1px solid;
 }
 
@@ -1549,6 +1549,7 @@ aside .pages {
 
     .portfolio-1 h2{
         margin-bottom: 40px;
+        line-height: 100%;
     }
 }
 
