@@ -648,7 +648,7 @@ aside .pages {
 }
 
 .plus_collapse {
-    margin: -52px 0px 0 0;
+    margin: -58px 0px 0 0;
     height: 45px;
 }
 
@@ -659,7 +659,7 @@ aside .pages {
 }
 
 .show {
-    height: 500px !important;
+    height: 50px !important;
     transition: height 0.35s ease;
 }
 
@@ -1507,6 +1507,10 @@ aside .pages {
 @media only screen and (max-width: 768px) {
     .portfolio-1 p{
         padding-right: 0;
+    }
+
+    .portfolio-1 h2{
+        margin-bottom: 40px;
     }
 }
 
@@ -2621,7 +2625,6 @@ footer form button:hover {
 
 .logoutSide {
     margin-left: 60%;
-    margin-top: 10%;
     margin-bottom: 15px;
     background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
     padding: 8px 12px 10px 12px;
