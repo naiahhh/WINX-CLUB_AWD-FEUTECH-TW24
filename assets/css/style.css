@@ -611,7 +611,7 @@ aside ul li {
 }
 
 aside li a {
-    color: #d3c9c1;
+    color: #000000;
     transition: 500ms;
     padding: 10px 0;
 }
@@ -627,7 +627,7 @@ aside li a:hover {
 
 aside .pages {
     font-weight: 500;
-    color: #d3c9c1;
+    color: #000000;
     margin: 11px 0 7px 0;
 }
 
