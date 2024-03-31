@@ -1425,6 +1425,10 @@ aside .pages {
     border: 1px solid;
 }
 
+.portfo-center .w-50 p{
+    margin-top:50px;
+}
+
 
 .portfolio-1 .btn_hover2 {
     padding: 15px 30px;
