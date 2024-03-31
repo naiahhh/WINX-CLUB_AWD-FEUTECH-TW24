@@ -885,23 +885,51 @@ aside .pages {
 }
 
 .center-btn {
-    gap: 2rem;
-    margin-top: 2rem;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
 }
 
+
 @media (max-width: 800px) {
+    .hero {
+        background-size: contain; 
+    }
+
     .hero h1 {
         font-size: 10px;
         margin-bottom: -10px;
-    
     }
+    .hero h3{
+        margin-top: -50px;
+        font-size: 16px;
+        margin-bottom: -80px;
+    }
+
+    .center-btn {
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+    
 }
 
 @media (max-width: 1400px) {
+    .hero {
+        background-size: 80%; 
+    }
+
     .hero h1 {
-        font-size: 150px;
-        margin-bottom: -10px;
-    
+        font-size: 70px;
+        margin-bottom: -70px;
+    }
+    .hero h3{
+        margin-top: -50px;
+        font-size: 16px;
+        margin-bottom: -80px;
+    }
+
+    .center-btn {
+        gap: 1rem;
+        margin-top: 3rem;
     }
 }
 /* button hover with background */
