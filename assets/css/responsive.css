@@ -10,6 +10,13 @@
     .team-img {
         min-width: 277px;
     }
+
+    .header-card h4, .header-card p {
+        padding-top: 10px;
+        margin: 0px;
+        text-align: center;
+
+    }
 }
 
 @media screen and (max-width: 1200px) {

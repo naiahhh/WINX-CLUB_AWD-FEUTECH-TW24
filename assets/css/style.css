@@ -1317,6 +1317,12 @@ aside .pages {
         align-items: center; /* Center items horizontally */
     }
 
+    .about-data h2, .about-data p {
+        margin: 20px 0;
+        color: #ffffff;
+        text-align: center;
+    }
+
     .about-imgs figure {
         width: 100%; /* Ensure the image fills its container */
     }
@@ -1331,8 +1337,9 @@ aside .pages {
     }
 
     .ab-count h2 {
-        margin: 40;
+        margin-top: 20px;
         font-size: 1.5rem; /* Adjust font size */
+        margin-bottom: -5px;
     }
 
     .ab-count p {
@@ -1818,12 +1825,18 @@ aside .pages {
     transition: all 0.4s ease !important;
 }
 
-.ex-card:hover h4 {
-    color: #ffffff;
+.ex-card h4 {
+    color: #3c032d;
+    padding-top: 20px;
+    padding-left:20px;
 }
 
-.ex-card:hover p {
-    color: #ffffff;
+.ex-card p {
+    color: #767676;
+    margin-top: 10px;
+    padding:0 20px;
+    padding-bottom: 20px;
+
 }
 
 .ex-card .flex {
@@ -1838,8 +1851,12 @@ aside .pages {
     background: #ffffff;
 }
 
-.ex-card:hover.ex-card h3 {
-    color: #7436bb !important;
+.ex-card:hover.ex-card h4 {
+    color: #ffffff !important;
+}
+
+.ex-card:hover.ex-card p {
+    color: #ffffff;
 }
 
 .ex-card div:last-child {
