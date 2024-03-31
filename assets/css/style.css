@@ -1676,7 +1676,6 @@ aside .pages {
     position: absolute;
     content: "";
     top: 26rem;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1747,8 +1746,10 @@ aside .pages {
 }
 
 .experience_mask img {
-    width: 100%;
-    clip-path: circle(47% at 50% 50%);
+    width: 150%;
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
 }
 
 .experience-hr {
