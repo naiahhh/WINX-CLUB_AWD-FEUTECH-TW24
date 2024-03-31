@@ -65,7 +65,7 @@
                     <div>
                         <!-- side menus -->
                         <ul>
-                            <li><a href="./pages/form.html" class="nav-link" id="usernameLink"><button class="login-Btn" id="_login">Login</button></a></li>
+                            <li><a href="./form.html" class="nav-link" id="usernameLink"><button class="login-Btn" id="_login">Login</button></a></li>
                             <li><a class="nav-link" href="/index.html">Home</a></li>
                             <li><a class="nav-link active" href="about.html">About</a></li>
                             <li><a class="nav-link" href="./gallery.html">Gallery</a></li>
@@ -462,6 +462,35 @@
 
     <!-- custom js -->
     <script src="../assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.team-slider').slick({
+            arrows: false,
+            dots: true,
+            infinite: false,
+            autoplay: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480, 
+                    settings: {
+                        slidesToShow: 0, 
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    });
+    </script>
     
 </body>
 </html>
