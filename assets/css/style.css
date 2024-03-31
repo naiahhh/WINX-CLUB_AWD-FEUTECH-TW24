@@ -509,7 +509,7 @@ nav li a.active,
 /* Sidebar */
 
 aside {
-    background-color: #d3c9c1;
+    background-color: #150120;
     z-index: 10;
 }
 
@@ -611,7 +611,7 @@ aside ul li {
 }
 
 aside li a {
-    color: #000000;
+    color: #ffffff;
     transition: 500ms;
     padding: 10px 0;
 }
@@ -638,7 +638,7 @@ aside .pages {
 }
 
 .collapse_btn i {
-    border: 1px solid #d3c9c1;
+    border: 1px solid #000000;
     padding: 7px 8px;
     border-radius: 40px;
 }
@@ -2642,7 +2642,7 @@ footer form button:hover {
     cursor: pointer;
     width: 100px;
     height: 40px;
-    color: #d3c9c1;
+    color: #000000;
 }
 
 #_login:hover {

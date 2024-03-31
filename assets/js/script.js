@@ -287,7 +287,7 @@ fom.addEventListener('submit', (event) => {
 
 
 
-// responsive Logoipsum Slider
+// responsive Slider
 $('.sliderlogo').slick({
     arrows: false,
     dots: false,
