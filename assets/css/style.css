@@ -2650,7 +2650,19 @@ footer form button:hover {
     cursor: pointer;
     width: 100px;
     height: 40px;
-    color: #000000;
+    color: #d3c9c1;
+}
+
+.login-Btn {
+    font-weight: 400;
+    color: inherit;
+    background: none;
+    padding: 0;
+    margin: 0; 
+    border: none; 
+    cursor: auto; 
+    width: auto; 
+    height: auto;color: #d3c9c1;
 }
 
 #_login:hover {
