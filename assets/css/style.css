@@ -611,7 +611,7 @@ aside ul li {
 }
 
 aside li a {
-    color: #ffffff;
+    color: #d3c9c1;
     transition: 500ms;
     padding: 10px 0;
 }
@@ -627,7 +627,7 @@ aside li a:hover {
 
 aside .pages {
     font-weight: 500;
-    color: #000000;
+    color: #7500fc;
     margin: 11px 0 7px 0;
 }
 
@@ -638,7 +638,7 @@ aside .pages {
 }
 
 .collapse_btn i {
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     padding: 7px 8px;
     border-radius: 40px;
 }
