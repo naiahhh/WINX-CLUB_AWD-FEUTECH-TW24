@@ -146,7 +146,7 @@ if (!localStorage.getItem('username')) {
 
 function logout() {
     localStorage.removeItem('username');
-    window.location.href = '../index.html';
+    window.location.href = './index.html';
 }
 
 if (!localStorage.getItem('username')) {
@@ -155,7 +155,7 @@ if (!localStorage.getItem('username')) {
 
 function logout() {
     localStorage.removeItem('username');
-    window.location.href = '../index.html';
+    window.location.href = './index.html';
 }
 
 document.getElementById('_logout').addEventListener('click', logout);
