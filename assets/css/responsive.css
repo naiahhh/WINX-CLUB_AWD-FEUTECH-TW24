@@ -388,7 +388,7 @@
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 800px) {
     .header-card {
         width: 100%;
         margin: 0;
