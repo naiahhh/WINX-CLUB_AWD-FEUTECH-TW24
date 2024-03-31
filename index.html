@@ -42,14 +42,14 @@
                                     Pages
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item" href="../pages/profile.html">Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="./pages/profile.html">Portfolio</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
 
                     <div class="flex nav-right">
-                        <a href="./pages/form.html" class="nav-link" id="usernameLink">Login</a>
+                        <a href="./pages/form.html" class="nav-link" id="usernameLink"><button class="login-Btn" id="_login">Login</button></a>
                         <!-- header buttons -->
                         <div class="notification" data-count="0" >
                             <i onclick="open_notification()" id="bellIcon" class="fa-solid fa-bell"></i>
@@ -68,6 +68,7 @@
                     <div>
                         <!-- side menus -->
                         <ul>
+                            <li><a href="./pages/form.html" class="nav-link" id="usernameLink"><button class="login-Btn" id="_login">Login</button></a></li>
                             <li><a class="nav-link active" href="index.html">Home</a></li>
                             <li><a class="nav-link" href="./pages/about.html">About</a></li>
                             <li class="pages"><a href="#">More</a></li>
@@ -82,6 +83,9 @@
                                     </ul>
                                 </div>
                             </li>
+                            <span class="flex">
+                                <button class="logoutSide" id="logout">Logout</button>
+                            </span>
                         </ul>
                     </div>
                 </aside>
@@ -156,7 +160,7 @@
                     <div class="header-card" data-aos="fade-up">
                         <div>
                             <figure><img src="assets/img/icon/feature1.png" class="feature-img1" alt="feature"></figure>
-                            <h4>SEAMLESS WINX INTEGRATION</h4>
+                            <h4>SEAMLESS INTEGRATION</h4>
                             <p>Winxify will effortlessly connect with your existing Winx account, allowing you to import your portfolio projects directly.
                             </p>
                         </div>
@@ -229,20 +233,17 @@
                     </div>
                     <div class="flex gap-1 mt-15 s-card">
                         <div class="service-card" data-aos="fade-down">
-                            <figure><img src="assets/img/icon/slider1.png" alt="slider1"></figure>
-                            <h3>UI/UX Design</h3>
+                            <h3>UI/UX</h3>
                             <p>Winxify will effortlessly connect with your existing Winx account, allowing you to import your portfolio projects directly.
                             </p>
                         </div>
                         <div class="service-card" data-aos="fade-up">
-                            <figure><img src="assets/img/icon/slider2.png" alt="slider2"></figure>
                             <h3>DEVELOPMENT</h3>
                             <p>Organize your portfolio projects efficiently with built-in project management features that help you stay on track and meet deadlines.
                             </p>
                         </div>
                         <div class="service-card" data-aos="fade-down">
-                            <figure><img src="assets/img/icon/slider3.png" alt="slider3"></figure>
-                            <h3>VISUAL DESIGN</h3>
+                            <h3>DESIGN</h3>
                             <p> Ensure your portfolio looks stunning and functions flawlessly on all devices, from desktops to tablets and smartphones.
                             </p>
                         </div>
@@ -436,7 +437,7 @@
                 <div class="container">
                     <div class="flex flex-start footer-center">
                         <div class="w-33 flex flex-col gap-2 flex-start">
-                            <a href="index.html"><img src="assets/img/logo.png" alt="footer-logo"></a>
+                            <a href="index.html"><img src="./assets/img/right-side-logo.png" alt="footer-logo"></a>
                             <p>Explore Winxify and discover how it can help you take your portfolio to the next level.
                             </p>
                             <span class="flex gap-2">
@@ -457,10 +458,10 @@
                         </div>
                         <div class="w-16 mt-45 flex-end">
                             <ul class="flex flex-col gap-2 flex-start">
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="./pages/about.html">FAQ</a></li>
+                                <li><a href="./pages/about.html">Contact</a></li>
+                                <li><a href="./pages/about.html">Team</a></li>
+
                             </ul>
                         </div>
                         <div class="w-33 mt-1 flex flex-col flex-start">
@@ -486,7 +487,7 @@
             </div>
             <div class="copyright">
                 <div class="container flex flex-sb gap-2 flex-wrap">
-                    <h6>Copyright © 2023</a> All Rights Reserved.
+                    <h6>Copyright © 2024</a> All Rights Reserved.
                     </h6>
                 </div>
             </div>
@@ -525,6 +526,9 @@
 
     <!-- custom js -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/profile.js"></script>
+    <script src="assets/js/portfo.js"></script>
+    <script src="assets/js/portfo.js"></script>
 
 </body>
 
