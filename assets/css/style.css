@@ -1332,7 +1332,7 @@ aside .pages {
 
 /* ====== End of 1.5. About us section ====== */
 
-/* ====== 1.6. gallary section ====== */
+/* ====== 1.6. gallery section ====== */
 
 .portfolio-1 {
     background: #150725;
@@ -1503,6 +1503,13 @@ aside .pages {
 .w-66 {
     width: 66.66666667%;
 }
+
+@media only screen and (max-width: 768px) {
+    .portfolio-1 p{
+        padding-right: 0;
+    }
+}
+
 
 
 /* ====== End of 1.6. gallary section ====== */
@@ -1957,6 +1964,8 @@ aside .pages {
     background-size: cover;
     background-position: center center;
     padding: 120px 0 0 0;
+    text-align: center;
+    justify-content: center;
 }
 
 #team {
@@ -1971,16 +1980,26 @@ aside .pages {
     color: #ffffff;
     letter-spacing: 1px;
     text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    align-content: center;
 }
 
 .team h2 {
     color: #ffffff;
     padding: 0 212px 0 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
 }
 
 .team p {
     color: #d3c9c1;
     padding: 0 184px 0 0;
+    justify-content: center;
+    display: flex;
+    align-content: center;
 }
 
 .team .team-hr1 {
@@ -2006,7 +2025,6 @@ aside .pages {
     object-fit: cover;
     position: relative;
     background-repeat: no-repeat;
-    /* height: 500px; */
 }
 
 .team-img img {
@@ -2078,9 +2096,19 @@ aside .pages {
 
 
 /* Media Queries for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .team {
         padding-top: 80px; /* Adjust top padding for smaller screens */
+    }
+
+    .team h2 {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .team h2,
+    .team p {
+        padding: 0 10px; /* Adjust padding for smaller screens */
     }
 
     #team {
@@ -2592,7 +2620,8 @@ footer form button:hover {
 }
 
 .logoutSide {
-    margin-top: 5%;
+    margin-left: 60%;
+    margin-top: 10%;
     margin-bottom: 15px;
     background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
     padding: 8px 12px 10px 12px;
