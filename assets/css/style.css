@@ -1279,7 +1279,7 @@ aside .pages {
 
 
 /* Responsive section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     /* Adjust styles for smaller screens here */
     .about-data {
         flex-direction: column; /* Stack items vertically on smaller screens */
@@ -1851,7 +1851,7 @@ aside .pages {
     }
 
     .ex-card {
-        left: -45%; /* Center horizontally */
+        left: 0; /* Center horizontally */
         margin-top: 0px; /* Adjust as needed */
         position: relative;
         top: 50%;
