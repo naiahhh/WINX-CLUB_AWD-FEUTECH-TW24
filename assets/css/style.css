@@ -1,9 +1,12 @@
-/* font family Raleway */
 
-@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* font family Barlow */
+/* font family Montserrat */
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/horizon');
 
 /* ============= 01. Reset section ============= */
 
@@ -165,52 +168,57 @@ body {
 }
 
 h1 {
-    font-size: 75px;
-    font-weight: 800;
-    line-height: 85px;
-    font-family: "Raleway", sans-serif;
-}
+        font-size: 200px;
+        font-weight: 800;
+        padding-bottom: 50px;
+        line-height: 85px;
+        font-family: "Horizon", sans-serif;
+        color: #000000; 
+        -webkit-background-clip: text;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    }
 
 h2 {
     font-size: 35px;
     font-weight: 800;
     line-height: 51px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h3 {
-    font-size: 25px;
-    font-weight: 800;
-    line-height: 31px;
-    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150px;
+    font-family: "Montserrat", sans-serif;
 }
 
 h4 {
     font-size: 22px;
     font-weight: 800;
     line-height: 28px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h5 {
     font-size: 20px;
     font-weight: 600;
     line-height: 26px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Horizon", sans-serif;
 }
 
 h6 {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+
 
 p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-    font-family: "Barlow", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 button {
@@ -219,7 +227,7 @@ button {
     line-height: 22px;
     padding: 16px 38px 16px 38px;
     text-transform: capitalize;
-    font-family: "Barlow", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -227,7 +235,7 @@ a {
     font-weight: 500;
     line-height: 22px;
     text-transform: capitalize;
-    font-family: "Barlow", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     transition: all 0.3s ease;
     color: #c9c3c3;
@@ -246,8 +254,8 @@ a {
 /* <!-- ====== 1.1. Header section ====== --> */
 
 .header-index {
-    background-image: url("../img/bg/hero_bg.png");
-    background-position: center center;
+    background-image: url("../img/bg/bg.jpg");
+    background-position: top center;
     background-size: cover;
 }
 
@@ -283,7 +291,8 @@ header {
 
 nav li a.active,
 .nav-link:is(:hover, :focus-visible) {
-    color: #f57c48;
+    color: #c308f1;
+    font-weight: 700;
 }
 
 .dropdown {
@@ -365,7 +374,7 @@ nav li a.active,
 }
 
 .nav-right span {
-    color: #f57c48;
+    color: #d10ec1;
 }
 
 .nav-right .fa-magnifying-glass {
@@ -554,7 +563,7 @@ aside {
     color: #ffffff;
     z-index: 1;
     letter-spacing: 0.8px;
-    background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
+    background: linear-gradient(180deg, #bb27ff 0%, #3a0541 100%);
     cursor: pointer;
 }
 
@@ -602,11 +611,11 @@ aside li a {
 }
 
 aside ul li a.active {
-    color: #f57c48;
+    color: #d10ec1;
 }
 
 aside li a:hover {
-    color: #f57c48;
+    color: #d10ec1;
     transition: 500ms;
 }
 
@@ -614,15 +623,6 @@ aside .pages {
     font-weight: 500;
     color: #d3c9c1;
     margin: 11px 0 7px 0;
-}
-
-.login-Btn {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    color: inherit;
-    cursor: default;
-    font-size: inherit;
 }
 
 .collapse_btn {
@@ -638,7 +638,7 @@ aside .pages {
 }
 
 .collapse_btn i:hover {
-    border: 1px solid #f57c48;
+    border: 1px solid #d10ec1;
 }
 
 .plus_collapse {
@@ -693,7 +693,7 @@ aside .pages {
 
 #search-bar form {
     border-radius: 50px;
-    border: 1px solid #6d2f8a;
+    border: 1px solid #3b134e;
     background: #381a46;
     width: 50%;
     margin: auto;
@@ -711,6 +711,7 @@ aside .pages {
     color: #ffffff;
     font-size: 18px;
     width: 100%;
+    font-family: "Montserrat", sans-serif;
 }
 
 #search-bar form button {
@@ -741,16 +742,16 @@ aside .pages {
 .header-right-sidebar button {
     width: 44px;
     height: 44px;
-    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    background: linear-gradient(42deg, #300f55 0.01%, #470540 100%);
     padding: 7px 12px 10px 12px;
     border-radius: 0.25em;
-    border: 1.5px solid #b520a3;
+    border: 1.5px solid #000000;
     color: #ffffff;
     cursor: pointer;
 }
 
 .header-right-sidebar button:hover {
-    background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
+    background: linear-gradient(180deg, #300f55 0.01%, #470540 100%);
 }
 
 .header-right-sidebar p {
@@ -793,13 +794,13 @@ aside .pages {
 
 .header-right-sidebar i {
     font-size: 20px;
-    background: linear-gradient(0deg, #f54a48 0.5%, #fa982f 100%);
+    background: linear-gradient(0deg, #c448f5 0.5%, #360366 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .header-right-sidebar i:hover {
-    background: linear-gradient(0deg, #f54a48 0.5%, #f54a48 100%);
+    background: linear-gradient(0deg, #c448f5 0.5%, #360366 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -814,7 +815,6 @@ aside .pages {
 /* ====== 1.2. hero section ====== */
 
 .hero {
-    background-image: url("../img/bg/hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -851,7 +851,7 @@ aside .pages {
 }
 
 .hero-social-icon i:hover {
-    background: linear-gradient(0deg, #f54a48 0.5%, #f54a48 100%);
+    background: linear-gradient(0deg, #b514ca 0.5%, #47084d 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -879,8 +879,8 @@ aside .pages {
 }
 
 .center-btn {
-    gap: 1.5rem;
-    margin-top: 1rem;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 /* button hover with background */
@@ -915,38 +915,38 @@ aside .pages {
     background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
 }
 
-/* button hover end */
-
 .center-btn a {
     padding: 16px 38px 16px 38px !important;
 }
-/* Responsive Styles */
-@media only screen and (max-width: 768px) {
-    .hero {
-        padding: 20% 0 20% 0; /* Adjusted padding for responsiveness */
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .header-card {
+        width: 50%;
+        padding: 0 10px; /* Adjust padding as needed */
     }
 
-    .hero-social-icon {
-        padding-top: 10px;
-        margin-left: -40px;  /* Adjusted padding for better spacing */
-    }
-
-    .hero-social-icon a {
-        padding: 5px; /* Adjusted padding for better spacing */
-    }
-
-    .hero-social-icon i {
-        font-size: 16px;
-        margin-left: 5px; 
+    .header-card h4 {
+        width: 100%;
     }
 }
 
+@media (max-width: 576px) {
+    .header-card {
+        width: 100%;
+        padding: 0 10px; /* Adjust padding as needed */
+    }
+}
+
+/* button hover end */
+
+
 /* ====== End of 1.2. hero section ====== */
+
 
 /* ====== 1.3. card section ====== */
 
 .feature {
-    background-color: #150725;
+    background-color: #090118;
     margin-top: -1px;
     position: relative;
 }
@@ -970,7 +970,10 @@ aside .pages {
 
 .header-card div {
     border-radius: 20px;
-    background: linear-gradient(0deg, #471133 0%, #140921 100%);
+    background: linear-gradient(0deg, #261147 0%, #140921 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(11.7px);
+    -webkit-backdrop-filter: blur(20px);
     color: #ffffff;
     padding: 40px 30px;
     transition: all 0.4s ease;
@@ -990,7 +993,7 @@ aside .pages {
 }
 
 .header-card h4 {
-    width: 145px;
+    width: 190px;
     letter-spacing: 1.1px;
     text-transform: uppercase;
     margin: 20px 0 12px 0;
@@ -998,7 +1001,7 @@ aside .pages {
 
 /* Apply different padding to each card */
 .header-card:nth-child(1) {
-    padding: 150px 60px; /* Adjust as needed */
+    padding: 190px 70px; /* Adjust as needed */
 }
 
 .header-card:nth-child(2) {
@@ -1033,6 +1036,7 @@ aside .pages {
 }
 
 /* ====== End of 1.3. card section ====== */
+
 /* ====== 1.4. logoipsum section ====== */
 
 .logoipsum {
@@ -1073,13 +1077,12 @@ aside .pages {
     margin: 70px auto 0 auto;
     background: rgba(255, 255, 255, 0.75);
 }
-
 /* ====== End of 1.4. logoipsum section ====== */
 
 /* ====== 1.5. About us section ====== */
 
 .about {
-    background: #3d0f41;
+    background-image: url("../img/bg/ourclients.png");
     padding: 100px 0;
 }
 
@@ -1115,7 +1118,7 @@ aside .pages {
 .about h5 {
     color: #ffffff;
     font-weight: 400;
-    font-family: "Barlow", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .about p {
@@ -1127,7 +1130,7 @@ aside .pages {
     border-radius: 50%;
     padding: 3px;
     font-size: 20px;
-    background: linear-gradient(66.75deg, #f54a48 0.87%, #fa982f 100%);
+    background: linear-gradient(66.75deg, #440a3f 0.87%, #630a57 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1150,11 +1153,9 @@ aside .pages {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    /* box-shadow: 0 0px 20px rgba(162, 20, 124, 0.3); */
 }
 
 .about-imgs figure {
-    /* background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%); */
     width: fit-content;
     clip-path: circle(45% at 50% 50%);
     transition: all 0.8s ease;
@@ -1201,7 +1202,7 @@ aside .pages {
 .ab-count {
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
+    background: linear-gradient(180deg, #350555 0%, #420530 100%);
     color: #ffffff;
     position: absolute;
     bottom: -18px;
@@ -1210,7 +1211,6 @@ aside .pages {
     border-radius: 50%;
     width: 175px;
     height: 175px;
-   
 
 }
 
@@ -1244,6 +1244,8 @@ aside .pages {
     letter-spacing: 3.72px;
     text-transform: uppercase;
 }
+
+
 /* Responsive section */
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens here */
@@ -1295,6 +1297,7 @@ aside .pages {
     }
 }
 
+
 /* ====== End of 1.5. About us section ====== */
 
 /* ====== 1.6. gallary section ====== */
@@ -1339,7 +1342,7 @@ aside .pages {
 .portfolio-1 .gallary-hr1 {
     opacity: 1.25;
     height: 1px;
-    color: #b520a3;
+    color: #440b3d;
     width: 60px;
     border: 1px solid;
 }
@@ -1348,13 +1351,10 @@ aside .pages {
     width: 100%;
     opacity: 1.25;
     height: 1px;
-    color: #461f72;
+    color: #120224;
     border: 1px solid;
 }
 
-.portfo-center p {
-    text-align: justify;
-}
 
 .portfolio-1 .btn_hover2 {
     padding: 15px 30px;
@@ -1368,7 +1368,7 @@ aside .pages {
 
 /* gallary */
 .gallary {
-    background-image: url("../img/bg/gallary-bg.png");
+    background-image: url("../img/bg/gallery_bg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-bottom: 120px;
@@ -1478,7 +1478,7 @@ aside .pages {
 /* ====== 1.7. Services section ====== */
 
 .service-1 {
-    background: #3d0f41;
+    background-image: url("../img/bg/services_bg.jpg");
     padding: 120px 0;
 }
 
@@ -1511,7 +1511,7 @@ aside .pages {
 .service-1 .service-hr1 {
     opacity: 1.25;
     height: 1px;
-    color: #b520a3;
+    color: #46083e;
     width: 60px;
     border: 1px solid;
 }
@@ -1520,7 +1520,7 @@ aside .pages {
     width: 100%;
     opacity: 1.25;
     height: 1px;
-    color: #461f72;
+    color: #46083e;
     border: 1px solid;
 }
 
@@ -1530,9 +1530,8 @@ aside .pages {
 }
 
 .service-card {
-    border: 1px solid #b520a3;
-    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
-    box-shadow: 8px 18px 30px 0px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(11deg, #0d011b 0.01%, #31072c 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 40px 40px 30px 40px;
     width: 100%;
 }
@@ -1594,7 +1593,7 @@ aside .pages {
 /* ====== 1.8. Experience section ====== */
 
 .experience {
-    background-image: url("../img/bg/experience_bg.jpg");
+    background: linear-gradient(to bottom, #0b0116, #31072c);
     background-size: cover;
     background-position: center center;
     padding: 120px 0;
@@ -1606,7 +1605,7 @@ aside .pages {
     position: absolute;
     content: "";
     top: 26rem;
-    background-image: url("../img/bg/experience_bg.jpg");
+
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1667,7 +1666,7 @@ aside .pages {
     width: fit-content;
     clip-path: circle(47% at 50% 50%);
     padding: 6px;
-    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    background-color: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
     transition: all 0.8s ease;
 }
 
@@ -1755,6 +1754,8 @@ aside .pages {
     color: #767676;
     margin-top: 10px;
 }
+
+
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
     .experience {
@@ -1793,11 +1794,11 @@ aside .pages {
 /* ====== 1.9. How we work section ====== */
 
 .work {
-    background-image: url("../img/bg/work-bg.jpg");
+    background-color: #060606;
     background-size: cover;
     background-position: center center;
     padding: 120px 0;
-    margin-top: -2px;
+    margin-top: -10px;
 }
 
 .work h5 {
@@ -1821,7 +1822,7 @@ aside .pages {
 .work-line div {
     position: absolute;
     border-radius: 50%;
-    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    background: linear-gradient(11deg, #1c0536 0.01%, #3b0435 100%);
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -1859,7 +1860,7 @@ aside .pages {
 }
 
 .work a {
-    border: 1.5px solid #ff7527;
+    border: 1.5px solid #5b0763;
 }
 
 .work-hr {
@@ -1887,6 +1888,7 @@ aside .pages {
 }
 
 /* ====== End of 1.9. Testimonials section ====== */
+
 
 /* ====== 1.10. team section ====== */
 
@@ -1953,7 +1955,7 @@ aside .pages {
     width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
-    /* height: 500px; */
+    height: 500px; 
 }
 
 .overlay {
@@ -2016,13 +2018,7 @@ aside .pages {
     padding: 8px 10px !important;
 }
 
-.team-btn {
-    background: linear-gradient(0deg, #471133 0%, #140921 100%);
-    color: #d3c9c1;
-    padding: 40px 20px;
-    margin-top: 90px;
-    text-transform: uppercase;
-}
+
 /* Media Queries for responsiveness */
 @media screen and (max-width: 768px) {
     .team {
@@ -2058,13 +2054,15 @@ aside .pages {
     }
 }
 
+
 /* ====== End of 1.10. team section ====== */
+
 
 /* ====== 1.11. Pricing section ====== */
 
 .pricing {
     padding: 120px 0;
-    background-image: url("../img/bg/pricing-bg.png");
+    background-image: url("../img/bg/pricing_bg.jpg");
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -2136,7 +2134,8 @@ aside .pages {
 }
 
 .pricing-card h3 {
-    color: #f57c48;
+    color: #ffffff;
+    font-family: 'Horizon', sans-serif;
 }
 
 .pricing-card h2 {
@@ -2163,7 +2162,7 @@ aside .pages {
 /* ====== 1.12. FAQ section ====== */
 
 .faq {
-    background-image: url("../img/bg/faq-bg.png");
+    background-image: url("../img/bg/faq_bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -2237,6 +2236,8 @@ aside .pages {
     padding: 15px;
     background-color: #fff;
 }
+
+
 /* Media query for smaller screens (up to 768px) */
 @media (max-width: 768px) {
     .faq {
@@ -2398,7 +2399,7 @@ footer form button:hover {
     font-size: 25px;
     font-weight: 800;
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -2422,6 +2423,7 @@ footer form button:hover {
 
 .footer-menu ul li a:hover {
     color: #f54a48;
+    /* text-transform: lowercase; */
 }
 
 .footer-menu i {
@@ -2439,7 +2441,7 @@ footer form button:hover {
 }
 
 .footer-menu h4 {
-    color: #f57c48;
+    color: #d10ec1;
     margin-bottom: 26px;
 }
 
@@ -2461,6 +2463,7 @@ footer form button:hover {
     text-transform: lowercase;
 
 }
+
 .copyright {
     background: #150725;
     color: #ffffff;
@@ -2503,8 +2506,6 @@ footer form button:hover {
         width: 80%;
     }
 }
-/* ====== End of 6.1. 404 / Coming Soon page ====== */
-
 
 
 /* button back to top */
@@ -2537,6 +2538,7 @@ footer form button:hover {
     background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
     border-radius: 5px;
 }
+
 
 /* LOG OUT BUTTON */
 #_logout {
@@ -2616,3 +2618,4 @@ footer form button:hover {
     width: 100px;
     color: #ffffff;
 }
+
