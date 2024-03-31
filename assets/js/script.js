@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 collapse.style.maxHeight = collapse.scrollHeight + "px";
                 // Change the image source, set rotation, and background color when expanding
-                acoimg[index].src = 'assets/img/icon/menu.png';
+                acoimg[index].src = 'assets/img/icon/menus.png';
                 acoimg[index].style.transform = 'rotate(180deg)';
                 button.style.backgroundColor = '#c1b0d5';
             }

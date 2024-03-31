@@ -2249,6 +2249,7 @@ aside .pages {
 /* ====== End of 1.11. Pricing section ====== */
 
 
+
 /* ====== 1.12. FAQ section ====== */
 
 .faq {
@@ -2327,17 +2328,49 @@ aside .pages {
     background-color: #fff;
 }
 
-
 /* Media query for smaller screens (up to 768px) */
 @media (max-width: 768px) {
     .faq {
-        padding: 60px 0; /* Further adjusted padding for smaller screens */
+        padding: 60px 0; 
     }
 
     #faq {
-        padding: 60px 0; /* Further adjusted padding for smaller screens */
+        padding: 60px 0; 
+    }
+
+    .accordion-button {
+        white-space: nowrap;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+
+    .flex {
+        padding: 0 10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column; 
+    }
+
+    .w-50 {
+        width: 100% !important; 
+    }
+
+    .faq h5,
+    .faq h2,
+    .faq p,
+    .faq .text-center h2 {
+        padding: 0 10px;
+        text-align: center; 
+    }
+
+    .faq .text-center p {
+        padding: 0 10px;
+        text-align: center; 
     }
 }
+
+
 
 /* ====== End of 1.12. FAQ section ====== */
 
