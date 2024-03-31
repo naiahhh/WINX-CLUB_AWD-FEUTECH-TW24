@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/horizon');
 
 :root {
     --color-white: #FFFFFF;
 }
 
 body {
-    background: linear-gradient(to right, #1d071d, #431031);
+    background-image: url("../img/bg/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
     font-size: 42px;
-    font-family: 'Monsterrat', sans-serif;
+    font-family: 'Horizon', sans-serif;
     color: var(--color-white);
     text-align: center;
     font-weight: 600;
@@ -22,7 +27,7 @@ h2 {
     text-align: center;
     text-transform: capitalize;
     font-size: 32px;
-    font-family: 'Monsterrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .profile h2 {
