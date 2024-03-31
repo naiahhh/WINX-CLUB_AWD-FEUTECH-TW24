@@ -1713,7 +1713,7 @@ aside .pages {
 }
 
 .experience_mask figure {
-    width: fit-content;
+    width: 100%;
     clip-path: circle(47% at 50% 50%);
     padding: 6px;
     background-color: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
