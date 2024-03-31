@@ -1238,16 +1238,17 @@ aside .pages {
     color: #ffffff;
     position: absolute;
     bottom: -18px;
-    left: 118px;
+    left: 120px;
     z-index: 11;
     border-radius: 50%;
     width: 175px;
     height: 175px;
-
 }
 
 .ab-count h2 {
     margin: 0;
+    line-height: 100%;
+    margin-bottom: 10px;
 }
 
 .about-hr {
@@ -1268,8 +1269,10 @@ aside .pages {
 
 .ab-count p {
     letter-spacing: 1px;
+    margin-top: 5px;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .about-hr h6 {
@@ -1291,7 +1294,7 @@ aside .pages {
     }
 
     .ab-count {
-        left: 100%; /* Center horizontally */
+        left: 80%; /* Center horizontally */
         transform: translateX(-50%); /* Center horizontally */
         bottom: 0; /* Adjust position from bottom */
         width: 125px; /* Adjust size */

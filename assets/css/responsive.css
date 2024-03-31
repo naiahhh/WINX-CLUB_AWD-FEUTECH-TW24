@@ -172,6 +172,7 @@
     .ab-count {
         width: 155px;
         height: 155px;
+        padding-bottom: 10%;
     }
 
     .ab-count h5 {
