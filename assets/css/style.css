@@ -1624,6 +1624,10 @@ aside .pages {
     width: 105px;
 }
 
+
+.service-card h3 {
+    font-size: 30px;
+}
 .service-card img[alt="slider2"] {
     width: 75px;
 }
@@ -1637,6 +1641,9 @@ aside .pages {
     align-self: center;
     align-content: center;
 }
+
+
+
 
 /* ====== End of 1.7. Services section ====== */
 
@@ -1804,6 +1811,7 @@ aside .pages {
     color: #767676;
     margin-top: 10px;
 }
+
 
 
 /* Responsive Styles */
