@@ -557,6 +557,24 @@
     #search-bar form{
         width: 90%;
     }
+
+    .footer-menu .container .flex.flex-start h4{
+        margin-top: 20px;
+    }
+    .footer-menu .container .flex.flex-start h4{
+        margin-bottom: 30px;
+    }
+    .footer-menu .container .flex.flex-start a{
+        margin-top: 5px;
+    }
+    .footer-menu .container .flex.flex-start li{
+        margin-top: 5px
+    }
+    .footer-menu .container .flex.flex-start p {
+        text-align: center;
+        padding: 0;
+    }
+    
 }
 
 @media screen and (max-width: 500px) {
