@@ -1,4 +1,6 @@
-# WINXIFY
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=50&center=true&vCenter=true&width=500&height=100&duration=4000&lines=WINXIFY;" />
+</h1>
 
 ![Winxify Logo](https://github.com/jshmrk/JUMPING-AWD-FEUTECH/raw/main/HEADER.png)
 
