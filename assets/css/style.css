@@ -791,12 +791,15 @@ aside .pages {
 .header-right-sidebar ul li {
     display: flex;
     gap: 20px;
+   
 }
 
 .header-right-sidebar ul a {
     padding: 0 !important;
     color: #231f20;
+
 }
+
 
 .header-right-sidebar i {
     font-size: 20px;
